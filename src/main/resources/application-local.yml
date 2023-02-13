@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/assembleiadb?sslmode=allow
+    username: assembleia_usr
+    password: assembleia_pass
+
+
+  jpa:
+    hibernate:
+      ddl-auto: update

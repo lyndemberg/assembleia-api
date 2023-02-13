@@ -1,0 +1,21 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /assembleia
+spring:
+  application:
+    name: assembleia-api
+
+#jpa:
+#  hibernate:
+#    ddl-auto: validate
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "info,health,env"
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html

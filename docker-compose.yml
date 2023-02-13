@@ -1,0 +1,11 @@
+version: '3'
+services:
+  assembleiadb:
+    image: postgres:12.3-alpine
+    container_name: assembleiadb
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_DB=assembleiadb
+      - POSTGRES_USER=assembleia_usr
+      - POSTGRES_PASSWORD=assembleia_pass
