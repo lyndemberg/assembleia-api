@@ -6,9 +6,9 @@ spring:
   application:
     name: assembleia-api
 
-#jpa:
-#  hibernate:
-#    ddl-auto: validate
+jpa:
+  hibernate:
+    ddl-auto: validate
 
 management:
   endpoints:
